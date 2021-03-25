@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2160 2160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.990759,0,0,0.990759,-158.444,-158.448)">
+        <path d="M1882.25,2169.83L1249.99,2340.07L617.722,2169.83L471.821,589.182L2028.17,589.182L1882.25,2169.83Z" style="fill:rgb(32,98,175);fill-rule:nonzero;"/>
+        <path d="M1249.99,717.212L1249.99,2204.29L1251.42,2204.68L1763.08,2066.9L1881.18,717.212L1249.99,717.212Z" style="fill:rgb(60,156,215);fill-rule:nonzero;"/>
+        <path d="M891.156,356.952L891.156,262.872L1028.42,262.872L1028.42,159.926L788.21,159.926L788.21,450.893L1028.42,450.893L1028.42,356.952L891.156,356.952ZM1275.34,262.872L1371.3,262.872L1371.3,159.926L1131.07,159.926L1131.07,262.872C1163.21,295.012 1179.97,310.395 1226.46,356.878C1199.28,356.878 1131.07,356.975 1131.07,356.971L1131.07,450.893L1371.3,450.893L1371.3,356.952L1275.34,262.872ZM1615.83,262.872L1711.79,262.872L1711.79,159.926L1471.54,159.926L1471.54,262.872C1503.68,295.012 1520.45,310.395 1566.94,356.878C1539.77,356.878 1471.54,356.975 1471.54,356.971L1471.54,450.893L1711.79,450.893L1711.79,356.952L1615.83,262.872Z" style="fill-rule:nonzero;"/>
+        <path d="M1249.42,1112.44L796.895,1300.9L811.902,1487.5L1249.42,1300.43L1714.84,1101.45L1734.13,910.566L1249.42,1112.44Z" style="fill:white;fill-rule:nonzero;"/>
+        <path d="M796.891,1300.9L811.897,1487.5L1249.42,1300.43L1249.42,1112.44L796.891,1300.9Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
+        <path d="M1734.13,910.571L1249.42,1112.44L1249.42,1300.43L1714.84,1101.45L1734.13,910.571Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+        <path d="M797.587,1300.9L812.598,1487.5L1483.92,1489.64L1468.9,1738.43L1248,1800.62L1035.65,1747.01L1022.78,1592.58L825.465,1592.58L851.204,1890.7L1250.14,2008.66L1646.92,1892.84L1698.4,1300.9L797.587,1300.9Z" style="fill:url(#_Linear3);fill-rule:nonzero;"/>
+        <path d="M1249.42,1300.9L796.895,1300.9L811.902,1487.5L1249.42,1488.9L1249.42,1300.9ZM1249.42,1800.03L1247.28,1800.63L1034.95,1747.01L1022.09,1592.59L824.778,1592.59L850.513,1890.71L1249.42,2008.66L1249.42,1800.03Z" style="fill-opacity:0.05;fill-rule:nonzero;"/>
+        <path d="M756.14,910.571L1734.13,910.571L1714.84,1101.45L779.73,1101.45L756.14,910.571Z" style="fill:url(#_Linear4);fill-rule:nonzero;"/>
+        <path d="M1249.42,910.571L756.14,910.571L779.73,1101.45L1249.42,1101.45L1249.42,910.571Z" style="fill-opacity:0.05;fill-rule:nonzero;"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.29659e-14,-375.062,375.062,2.29659e-14,1023.16,1487.5)"><stop offset="0" style="stop-color:rgb(209,211,212);stop-opacity:0"/><stop offset="0.39" style="stop-color:rgb(209,211,212);stop-opacity:0"/><stop offset="1" style="stop-color:rgb(209,211,212);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.38721e-14,-389.86,389.86,2.38721e-14,1491.77,1300.43)"><stop offset="0" style="stop-color:rgb(209,211,212);stop-opacity:0"/><stop offset="0.39" style="stop-color:rgb(209,211,212);stop-opacity:0"/><stop offset="1" style="stop-color:rgb(209,211,212);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(900.807,0,0,900.807,797.587,1654.78)"><stop offset="0" style="stop-color:rgb(232,231,229);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(977.986,0,0,977.986,756.14,1006.01)"><stop offset="0" style="stop-color:rgb(232,231,229);stop-opacity:1"/><stop offset="1" style="stop-color:white;stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
