@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useEffect} from "react";
+import {useInView} from "react-intersection-observer";
+import {useAnimation} from "framer-motion";
 import styled from "styled-components";
 
 import { Section, Header } from "../../GlobalStyles";
@@ -50,7 +52,7 @@ const StyledPic = styled.div`
 // -------------------- Animation Parameters -------------------- //
 
 const sectionVariants = {
-  hidden: { opacity: 0, y: 100 },
+  hidden: { opacity: 0, y: 150 },
   show: {
     opacity: 1,
     y: 0,
@@ -61,14 +63,26 @@ const sectionVariants = {
 // -------------------- Final Component -------------------- //
 
 const AboutSection = ({ id }) => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: "-150px"
+  });
+
+  useEffect(()=> {
+    if(inView) {
+      controls.start("show");
+    }
+  }, [controls, inView])
 
   return (
     <Section
       aboutme
       id={id}
+      ref={ref}
       variants={sectionVariants}
       initial="hidden"
-      animate="show"
+      animate={controls}
     >
       <Header>About Me</Header>
       <StyledText>

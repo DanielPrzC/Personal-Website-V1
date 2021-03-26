@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 import styled from "styled-components";
 
 import CTAButton from "../CTAButton";
@@ -30,13 +32,26 @@ const sectionVariants = {
 // -------------------- Final Component -------------------- //
 
 const ContactSection = ({ id }) => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: "-150px",
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("show");
+    }
+  }, [controls, inView]);
+
   return (
     <Section
       contact
       id={id}
+      ref={ref}
       variants={sectionVariants}
       initial="hidden"
-      animate="show"
+      animate={controls}
     >
       <Header contact>Get In Touch</Header>
       <StyledP>
