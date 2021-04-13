@@ -12,7 +12,7 @@ export const Projects = [
           website: "https://github.com/DanielPrzC/movieSearchApp",
           icon: "Github",
         },
-        { website: "https://movies-searchapp.herokuapp.com/", icon: "External" },
+        { website: "https://react-moviesearchapp.netlify.app/", icon: "External" },
       ],
     },
   ];
