@@ -88,11 +88,10 @@ const AboutSection = ({ id }) => {
       <StyledText>
         <div>
           <p>
-            I'm a mechanical engineer with more than 6 years of experience in
-            the oil & gas industry, but I've always been passionated about
+            I've always been passionated about
             programming and creating things and I've found a great way to
             channel my creativity through web development, combining my
-            technical insight with my fussy eye for design.
+            technical insight with my fussy eye for design, and... I'm also a Mechanical Engineer.
           </p>
           <p>
             I'm a UX/UI enthusiast so I'm focused on creating seamless user
